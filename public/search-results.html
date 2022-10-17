@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />* -->
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body class="app">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="content">
+        <header class="header">
+          <a href="/" class="header__roundButton">
+            <img src="img/roundButton.png" alt="Button" width="50" height="50"/>
+          </a>
+          <div class="header__mediaControls">
+            <a href="/"><img src="img/leftarrow.png" width="18px" height="30px"/></a>
+            <a href="/"><img src="img/play.png" width="30px" height="30px"/></a>
+            <a href="/"><img src="img/rightarrow.png" width="18px" height="30px"/></a>
+            <a href="/"><img src="img/like.png" width="18px" height="30px"/></a>
+          </div>
+          <a href="/" class="header__logo">
+            <img src="img/logo.png" alt="Logo" width="90px" height="24px"/>
+          </a>
+          <input type="search" class="header__input" placeholder="Search..."/>
+          <div class="header__nav">
+            <a href="/" class="header__navLink link">Home</a>
+            <a href="/" class="header__navLink link">Live</a>
+            <a href="/" class="header__navLink link">Music</a>
+            <a href="/" class="header__navLink link">Charts</a>
+            <a href="/" class="header__navLink link">Events</a>
+            <a href="/" class="header__navLink link">Features</a>            
+          </div>
+          <a href="/" class="header__navLink">
+            <img src="img/cabinet.png" alt="cabinet" width="30px" height="30px"/>
+          </a>
+        </header>
+        <main class="mainContent">
+
+          <div class="searchInfo">
+            <h1 class="searchInfo__h1">Search results for "never gonna give you up"</h1>
+            <a class="searchInfo__nav" href="/">Top Results</a>
+            <a class="searchInfo__nav" href="/">Artists</a>
+            <a class="searchInfo__nav" href="/">Albums</a>
+            <a class="searchInfo__nav" href="/">Tracks</a>
+          </div>
+
+          <div class="searchResult">
+            <div class="searchResult__maincontent">
+              <form class="searchForm">
+                <input class="searchForm__input" type="search" placeholder="what do you want to find?"/>
+                <button class="searchForm__clearButton" type="submit"><img src="img/clear.png" alt="clear"/></button>
+                <button class="searchForm__loupeButton" type="submit"><img src="img/loupe.png" alt="loupe"/></button>                
+              </form>
+
+              <div class="searchResult__artists">
+                <h2 class="searchResult__h2">Artists</h2>
+                <div class="searchResult__blocks">
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up (8 Bit Remix Cover Version) [Tribute ti Rick Astley]</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up (8 Bit Remix Cover Version) [Tribute ti Rick Astley]</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up (8 Bit Remix Cover Version) [Tribute ti Rick Astley]</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up (8 Bit Remix Cover Version) [Tribute ti Rick Astley]</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>                 
+                </div>
+                <div class="searchResult__Link">
+                  <a href="/" >More artists ></a>
+                </div>
+              </div>
+              
+              <div class="searchResult__albums">
+                <h2 class="searchResult__h2">Albums</h2>                
+                <div class="searchResult__blocks">
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up (8 Bit Remix Cover Version) [Tribute ti Rick Astley]</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up (8 Bit Remix Cover Version) [Tribute ti Rick Astley]</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up (8 Bit Remix Cover Version) [Tribute ti Rick Astley]</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>
+                  <div class="blocksItems">
+                    <a href="/" class="blocksItems__name">Never Gonna Give You Up (8 Bit Remix Cover Version) [Tribute ti Rick Astley]</a>
+                    <span class="blocksItems_info">62 listeners</span>
+                  </div>                 
+                </div>
+
+                <div class="searchResult__Link">
+                  <a href="/" >More albums ></a>
+                </div>
+              </div>
+
+              <div class="searchResult__tracks">
+                <h2 class="searchResult__h2">Tracks</h2>
+                <div class="tracks">
+                  <div class="tracksRow">
+                    <a href="/" class="tracksRow__playimg"><img src="img/tracksRow__playimg.png" alt="playimg"></a>
+                    <a href="/" class="tracksRow__icon"><img src="img/tracksRow__icon.png" alt="icon"></a>
+                    <a href="/" class="tracksRow__likeimg"><img src="img/tracksRow__likeimg.png" alt="likeimg"></a>
+                    <a href="/" class="tracksRow__name"><span>Never Gonna Give You Up</span></a>
+                    <a href="/" class="tracksRows__artist"><span>Rick Astley</span></a>                    
+                    <span class="tracksRow__time">3:39</span>                    
+                  </div>   
+                  <div class="tracksRow">
+                    <a href="/" class="tracksRow__playimg"><img src="img/tracksRow__playimg.png" alt="playimg"></a>
+                    <a href="/" class="tracksRow__icon"><img src="img/tracksRow__icon.png" alt="icon"></a>
+                    <a href="/" class="tracksRow__likeimg"><img src="img/tracksRow__likeimg.png" alt="likeimg"></a>
+                    <a href="/" class="tracksRow__name"><span>Never Gonna Give You Up Never Gonna Give You Up</span></a>
+                    <a href="/" class="tracksRows__artist"><span>Rick Astley</span></a>                    
+                    <span class="tracksRow__time">3:39</span>                    
+                  </div>  
+                  <div class="tracksRow">
+                    <a href="/" class="tracksRow__playimg"><img src="img/tracksRow__playimg.png" alt="playimg"></a>
+                    <a href="/" class="tracksRow__icon"><img src="img/tracksRow__icon.png" alt="icon"></a>
+                    <a href="/" class="tracksRow__likeimg"><img src="img/tracksRow__likeimg.png" alt="likeimg"></a>
+                    <a href="/" class="tracksRow__name"><span>Never Gonna Give You Up</span></a>
+                    <a href="/" class="tracksRows__artist"><span>Rick Astley</span></a>                    
+                    <span class="tracksRow__time">3:39</span>                    
+                  </div>   
+                  <div class="tracksRow">
+                    <a href="/" class="tracksRow__playimg"><img src="img/tracksRow__playimg.png" alt="playimg"></a>
+                    <a href="/" class="tracksRow__icon"><img src="img/tracksRow__icon.png" alt="icon"></a>
+                    <a href="/" class="tracksRow__likeimg"><img src="img/tracksRow__likeimg.png" alt="likeimg"></a>
+                    <a href="/" class="tracksRow__name"><span>Never Gonna Give You Up Never Gonna Give You Up</span></a>
+                    <a href="/" class="tracksRows__artist"><span>Rick Astley</span></a>                    
+                    <span class="tracksRow__time">3:39</span>                    
+                  </div>
+                  <div class="tracksRow">
+                    <a href="/" class="tracksRow__playimg"><img src="img/tracksRow__playimg.png" alt="playimg"></a>
+                    <a href="/" class="tracksRow__icon"><img src="img/tracksRow__icon.png" alt="icon"></a>
+                    <a href="/" class="tracksRow__likeimg"><img src="img/tracksRow__likeimg.png" alt="likeimg"></a>
+                    <a href="/" class="tracksRow__name"><span>Never Gonna Give You Up</span></a>
+                    <a href="/" class="tracksRows__artist"><span>Rick Astley</span></a>                    
+                    <span class="tracksRow__time">3:39</span>                    
+                  </div>   
+                  <div class="tracksRow">
+                    <a href="/" class="tracksRow__playimg"><img src="img/tracksRow__playimg.png" alt="playimg"></a>
+                    <a href="/" class="tracksRow__icon"><img src="img/tracksRow__icon.png" alt="icon"></a>
+                    <a href="/" class="tracksRow__likeimg"><img src="img/tracksRow__likeimg.png" alt="likeimg"></a>
+                    <a href="/" class="tracksRow__name"><span>Never Gonna Give You Up Never Gonna Give You Up</span></a>
+                    <a href="/" class="tracksRows__artist"><span>Rick Astley</span></a>                    
+                    <span class="tracksRow__time">3:39</span>                    
+                  </div>
+                  <div class="tracksRow">
+                    <a href="/" class="tracksRow__playimg"><img src="img/tracksRow__playimg.png" alt="playimg"></a>
+                    <a href="/" class="tracksRow__icon"><img src="img/tracksRow__icon.png" alt="icon"></a>
+                    <a href="/" class="tracksRow__likeimg"><img src="img/tracksRow__likeimg.png" alt="likeimg"></a>
+                    <a href="/" class="tracksRow__name"><span>Never Gonna Give You Up</span></a>
+                    <a href="/" class="tracksRows__artist"><span>Rick Astley</span></a>                    
+                    <span class="tracksRow__time">3:39</span>                    
+                  </div>   
+                  <div class="tracksRow">
+                    <a href="/" class="tracksRow__playimg"><img src="img/tracksRow__playimg.png" alt="playimg"></a>
+                    <a href="/" class="tracksRow__icon"><img src="img/tracksRow__icon.png" alt="icon"></a>
+                    <a href="/" class="tracksRow__likeimg"><img src="img/tracksRow__likeimg.png" alt="likeimg"></a>
+                    <a href="/" class="tracksRow__name"><span>Never Gonna Give You Up Never Gonna Give You Up</span></a>
+                    <a href="/" class="tracksRows__artist"><span>Rick Astley</span></a>                    
+                    <span class="tracksRow__time">3:39</span>                    
+                  </div>
+                  <div class="searchResult__Link">
+                    <a href="/" >More tracks ></a>
+                  </div>
+                                   
+                </div>
+              </div>
+
+            </div>
+
+            <div class="searchResult__ads">
+              Don't want to see ads?
+              <a href="/">Upgrade Now</a>  
+            </div>
+
+          </div>
+          
+        </main>
+        <footer class="footer">
+          <div class="footer__nav">
+            <div class="footer__links">
+              <span class="footer__span">COMPANY</span>
+              <a class="link" href="/">About Last.fm</a>
+              <a class="link" href="/">Contact Us</a>
+              <a class="link" href="/">Jobs</a>
+            </div>
+            <div class="footer__links">
+              <span class="footer__span">HELP</span>
+              <a class="link" href="/">Track My Music</a>
+              <a class="link" href="/">Community Support</a>
+              <a class="link" href="/">Community Guidelines</a>
+              <a class="link" href="/">Help</a>
+            </div>
+            <div class="footer__links">
+              <span class="footer__span">GOODIES</span>
+              <a class="link" href="/">Download Scrobbler</a>
+              <a class="link" href="/">Developer API</a>
+              <a class="link" href="/">Free Music Downloads</a>
+              <a class="link" href="/">Merchandise</a>
+            </div>
+            <div class="footer__links">
+              <span class="footer__span">ACCOUNT</span>
+              <a class="link" href="/">Inbox</a>
+              <a class="link" href="/">Settings</a>
+              <a class="link" href="/">Last.fm Pro</a>
+              <a class="link" href="/">Logout</a>
+            </div>
+            <div class="footer__links">
+              <span class="footer__span">FOLLOW US</span>
+              <a class="link" href="/">Facebook</a>
+              <a class="link" href="/">Twitter</a>
+              <a class="link" href="/">Instagram</a>
+              <a class="link" href="/">YouTube</a>
+            </div>
+          </div>
+          <div class="footer__info">
+            <div class="footer__lang">
+              <div>
+                <a href="/" class="footer__langLink_activ link">English</a>
+                <a href="/" class="footer__langLink link">Deutsch</a>
+                <a href="/" class="footer__langLink link">Español</a>
+                <a href="/" class="footer__langLink link">Français</a>
+                <a href="/" class="footer__langLink link">Italiano</a>
+                <a href="/" class="footer__langLink link">日本語</a>
+                <a href="/" class="footer__langLink link">Polski</a>
+                <a href="/" class="footer__langLink link">Português</a>
+                <a href="/" class="footer__langLink link">Русский</a>
+                <a href="/" class="footer__langLink link">Svenska</a>
+                <a href="/" class="footer__langLink link">Türkçe</a>
+                <a href="/" class="footer__langLink link">语体中文</a>
+              </div>
+              <div class="footer__timeZone">
+                <span class="footer__span">Time zone:</span>
+                <a href="/" class="link">Europe/Moscow</a>
+              </div>
+              <div class="footer__nav2">
+                <span>CBS Interactive © 2022 Last.fm Ltd. All rights reserved</span>
+                <a href="/" class="link">·Terms of Use</a>
+                <a href="/" class="link">·Privacy Policy</a>
+                <a href="/" class="link">·Legal Policies</a>
+                <a href="/" class="link">·Cookies Policy</a>
+                <a href="/" class="link">·Do not Sell My Personal Information</a><br>
+                <a href="/" class="link">·Jobs at ViacomCBS</a>
+                <a href="/" class="link">·Last.fm Music</a>
+              </div>
+            </div>
+            <div>
+              <span>Audioscrobbler</span><br>
+              <img class="footer__img" src="img/as.png" alt="logo"/>
+            </div>
+          </div>    
+        </footer>
+      </div>
+    </div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    
+  </body>
+</html>
